@@ -1,6 +1,6 @@
-import fastify from '../index';
+import fastify from '../index.mjs';
 
-import { users } from '../users';
+import { users } from '../users.mjs';
 
 describe('fastify', () => {
   describe('/uppercase route', () => {
